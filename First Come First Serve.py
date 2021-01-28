@@ -1,8 +1,8 @@
 def Take_Queue():
     input_Queue = input('Input queue : ');
-    array = input_Queue.split(',')
-    length_of_queue = len(array)
-    return length_of_queue,array
+    array = input_Queue.split(',');
+    length_of_queue = len(array);
+    return length_of_queue,array;
 
 def Take_head_start():
     head_start = int(input('Input Head Starts : '));
@@ -24,6 +24,6 @@ def main_process(length_of_queue,head_start,array):
     print('Total Distance : '+ str(Total_distance));
     print('Path : '+path);
 
-a,b=Take_Queue()
-c=Take_head_start()
-main_process(a,c,b)
+a,b=Take_Queue();
+c=Take_head_start();
+main_process(a,c,b);
