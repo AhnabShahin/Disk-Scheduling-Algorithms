@@ -26,4 +26,4 @@ def main_process(length_of_queue,head_start,array):
 
 a,b=Take_Queue();
 c=Take_head_start();
-main_process(a,c,b);
+main_process(a,c,b)
