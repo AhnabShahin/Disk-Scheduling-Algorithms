@@ -48,4 +48,3 @@ def main_function():
         print('Path : '+path)
 
 
-main_function()
