@@ -47,4 +47,5 @@ def main_function():
         print('Total distance :'+str(sum))
         print('Path : '+path)
 
+main_function()
 
